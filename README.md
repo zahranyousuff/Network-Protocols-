@@ -37,7 +37,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Create a Windows 10 Virtual Machine in Azure.
 
 
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/2c346295-a218-46c8-84b2-4f7895f35ae2)
+<img height="70%" width="70%" alt="vm create" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/019221e3-cca9-40bf-a7e4-003612e0d56d">
 
 
 ![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/ff3e7501-29d9-407c-99b5-5c86a7460b27)
@@ -48,25 +48,27 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - For the image choose Windows 10 Pro, version 22H2 - x64 Gen2 (free services eligible).
 
 
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/3c6d1af6-c28e-4729-8ffa-9d55e2c5cb3a)
+<img height="70%" width="70%" alt="vm1 create" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/0ca41257-3539-4913-9be9-5cd28d00b7c5">
 
 
 - Create a username and password(don't forget your username and password!).
 
 
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/7bd25a1b-81c5-4b39-99e2-b2550f71b774)
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 1 03 29 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/1c6227a4-efc1-4794-ba14-c82426c4b0c6">
 
 
 - Wait for the validation process and hit create.
 
 
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/5b50a0ad-f173-4ed6-a57e-96e931617280)
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 1 06 38 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/242a7eef-3f96-4bd4-b1cc-c543f8368714">
+
 
 
 - Whenever you create a new VM in Azure, a virtual network is automatically made for you.
 
 
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/fa78d92f-af13-4f7f-b004-a15a086a0a5f)
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 1 09 34 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/c5cfdec6-d1a6-472b-bc35-1057f2935f48">
+
 
 
 - Create another VM and name it VM-2
@@ -107,13 +109,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Download Wireshark on VM-1.
 
 
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/fe633afa-84bc-4250-81a4-98e5fd6acf84)
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 8 02 54 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/08288f96-ff7d-4ddb-b2ab-36cb1d95df89">
 
 
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/bdd86e1f-a03c-4af6-a05b-cc6b2bfaf0d8)
+
+<img height="70%" width="70" alt="wireshark search" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/dcfb0246-ad82-4b11-ade7-e22852b4896c">
 
 
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/160d5deb-76f6-4cce-8a11-b7816c270ea2)
+
+<img height="70%" width="70%" alt="wireshark download page" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/c039c627-52a8-4b55-aa0b-6e81f208942f">
 
 
 ![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/229e1412-5a46-43f8-9bcf-dcffaac290dc)
@@ -163,3 +167,34 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 ![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/73aa38e8-8a56-408c-bffd-e36c49a50661)
+
+
+- Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM.
+- The command for perpetual ping is -t.
+
+
+![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/eb64440a-fe83-4c0f-a277-dc6554aaaa47)
+
+
+![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/c8e7f881-a9e1-499d-a33a-fb5de79d73f4)
+
+
+- To get a basic idea of how firewalls work we will block IMCP traffic from VM-2 firewall and observe the results.
+- Go back to the Azure portal go to Network Security groups and click on VM-2.
+
+
+![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/26c5ce58-42f3-4ab1-a121-50cdf11b0c02)
+
+
+![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/35f54d96-706e-45d9-b65c-5baeb150f21f)
+
+
+- From there click on Inbound security rules and click Add.
+
+
+![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/c8fc5055-ec7f-44bb-8530-9926ab0ad421)
+
+
+<img width="800" alt="Screenshot 2024-02-12 at 3 26 40 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/dd166cc7-abf4-4f5d-8590-fc8cc698ec12">
+
+
