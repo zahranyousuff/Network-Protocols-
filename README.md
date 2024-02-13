@@ -108,3 +108,18 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 ![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/fe633afa-84bc-4250-81a4-98e5fd6acf84)
+
+
+![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/bdd86e1f-a03c-4af6-a05b-cc6b2bfaf0d8)
+
+
+![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/160d5deb-76f6-4cce-8a11-b7816c270ea2)
+
+
+![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/229e1412-5a46-43f8-9bcf-dcffaac290dc)
+
+
+![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/270b302b-3155-4676-bd65-09abcc6960fd)
+
+
+![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/7dfd5e86-9db4-446a-95cd-c19b4178730e)
