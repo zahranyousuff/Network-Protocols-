@@ -123,3 +123,43 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 ![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/7dfd5e86-9db4-446a-95cd-c19b4178730e)
+
+
+
+
+- After installation, open wireshark click on the capture button, and observe the network traffic.
+
+
+![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/c4189e83-f7a2-44fe-aee4-0dd52b1f5cbb)
+
+
+![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/8d4d87bd-5826-455a-8414-a2c5daf33546)
+
+
+- Filter for ICMP traffic.
+- Open up Windows PowerShell and ping VM-2 private IP address.
+- You can find VM-2 private IP address in the Azure Portal under networking.
+
+
+![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/2687c245-9b39-4fa0-8114-6f6f47b0689f)
+
+
+
+- You can observe the ping request in WireShark.
+- Source: 10.0.0.4 (VM-1 private IP address).
+- Destination: 10.0.0.5 (VM-2).
+- Protocol: ICMP
+- Request followed by the reply from VM-2.
+
+
+![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/b8fbea59-db8a-4f2d-8523-da991df9985f)
+
+
+- You can also observe the traffic from a website.
+- From The Windows 10 VM, open the command line or PowerShell and attempt to ping a public website (such as www.google.com) and observe the traffic in WireShark
+- The destination IP address (172.217.12.142) is Google's public IP address.
+
+![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/fb0089ca-7a18-48b5-9d59-8cdd72902bce)
+
+
+![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/73aa38e8-8a56-408c-bffd-e36c49a50661)
