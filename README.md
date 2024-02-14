@@ -228,3 +228,28 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 <h3>Observe SSH Traffic</h3>
+
+
+- SSH(Secure Shell) provides a secure way to access and manage remote systems, making it a widely used protocol for remote administration, file transfer, and other network services.
+- Observe SSH traffic in WireShark.
+- From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private IP address)
+- ssh labuser@10.0.0.5
+
+
+
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 3 43 26 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/4700969f-5c03-46ab-89ed-cd4e070561a6">
+
+
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 3 45 25 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/14479a39-76cd-4191-9d3d-b1083294d51d">
+
+
+- Type in the password when prompted(Note that when you enter your password it won't show anything.)
+
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 3 45 40 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/b535c3e6-e33a-493d-9933-b265cddd714e">
+
+
+- Back in Wireshark, filter for SSH traffic only.
+- To get a basic idea of how SSH works type some basic Linx commands in PowerShell.
+- id provides information about the user's identity within the system.
+- uname -a command is used to display system information.
+- ls command to look up list files and directories in the current directory.
