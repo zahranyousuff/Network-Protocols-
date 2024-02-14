@@ -253,3 +253,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - id provides information about the user's identity within the system.
 - uname -a command is used to display system information.
 - ls command to look up list files and directories in the current directory.
+
+
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 3 48 03 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/2f89e1f8-38d9-4989-97d1-faef2c0a2625">
+
+
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 3 54 10 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/22666a0e-d426-4a22-9f4d-0cbe5ae15dd0">
+
+
+- You can use touch followed by the filename to create an empty file.
+- For example: touch hi.text
+
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 3 55 45 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/86590927-0962-4748-8d39-02f62d654317">
