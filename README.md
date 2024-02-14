@@ -77,27 +77,27 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Make the same username and password as VM-1.
 
 
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/bdbc0791-e4f7-499a-a5c7-c433d2c1346d)
+<img height="70%" width="70%" alt="vm2 creat1" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/71dc853f-d704-4107-bb28-0214af87c19a">
+
+
+<img height="70%" width="70%" alt="vm2 create2" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/8539bdf1-edcd-4878-bc40-b8516065de9e">
 
 
 
 
-
-
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/af758ccf-ca0d-4904-93d8-ea28492bf814)
 
 
 - In the network tab choose the same Virtual Network as VM-1( if you don't see VM-1 network check to see if VM-1 is done being created).
 
 
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/9fd0cfa0-ed03-4e3f-a16d-7f63685dc295)
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 1 33 50 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/012b009c-a21d-416d-b53b-7b0266a5947d">
+
 
 
 - Review/Create
 - Go back to Virtual Machines to view your VMs.
 
-
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/bed7aa49-decc-4dfb-bc99-00d55ffdd005)
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 1 37 01 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/53250648-eb7c-48eb-a355-44203a31b69d">
 
 
 <h2>Observe ICMP Traffic</h2>
@@ -113,7 +113,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 
-<img height="70%" width="70" alt="wireshark search" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/dcfb0246-ad82-4b11-ade7-e22852b4896c">
+<img height="70%" width="70%" alt="wireshark search" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/dcfb0246-ad82-4b11-ade7-e22852b4896c">
 
 
 
