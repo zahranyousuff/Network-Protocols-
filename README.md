@@ -144,7 +144,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img height="70%" width="70%" alt="Screenshot 2024-02-12 at 2 54 56 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/2c022360-f13b-40bd-a777-6e1e5ad11da6">
 
 
-- Filter for ICMP traffic.
+- Filter for ICMP(Internet Control Message Protocol) traffic.
+- ICMP determines whether or not data is reaching its intended destination. 
 - Open up Windows PowerShell and ping VM-2 private IP address.
 - You can find VM-2 private IP address in the Azure Portal under networking.
 
@@ -174,31 +175,56 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 - Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM.
-- The command for perpetual ping is -t.
+- The command for perpetual ping is -t (ping 10.0.0.5 -t).
 
 
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/eb64440a-fe83-4c0f-a277-dc6554aaaa47)
+<img height="70%" width="70%" alt="non stop ping" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/375dda64-5621-4edc-b144-036ea109688d">
 
 
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/c8e7f881-a9e1-499d-a33a-fb5de79d73f4)
+
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 3 19 20 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/f5e663b0-c83a-434f-8061-94dca41ca1ea">
+
 
 
 - To get a basic idea of how firewalls work we will block IMCP traffic from VM-2 firewall and observe the results.
 - Go back to the Azure portal go to Network Security groups and click on VM-2.
 
 
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/26c5ce58-42f3-4ab1-a121-50cdf11b0c02)
+<img height="70%" width="70%" alt="network securty group" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/5dd1d921-dcc6-49c3-9460-f2c4ce6ed555">
 
 
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/35f54d96-706e-45d9-b65c-5baeb150f21f)
+
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 3 23 16 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/1c247ca5-763c-4032-8c9b-7c8601c5ca8e">
 
 
 - From there click on Inbound security rules and click Add.
 
 
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/c8fc5055-ec7f-44bb-8530-9926ab0ad421)
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 3 25 00 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/ec2c8be3-78ee-44e9-b720-e0c9324171b5">
 
 
-<img width="800" alt="Screenshot 2024-02-12 at 3 26 40 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/dd166cc7-abf4-4f5d-8590-fc8cc698ec12">
+
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 3 26 40 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/7bd2421f-c4d3-42af-a69b-901b6d2b5d5c">
 
 
+- Add inbound security rule.
+- Protocol: ICMP
+- Action: Deny
+- Priority: 200(We want this on the top of the list of Inbound Security Rules)
+
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 3 29 09 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/0be099c7-f77e-4bdd-9953-df9d6977dd26">
+
+
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 3 33 37 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/0414da4d-007b-4233-b681-4acef6dabaf8">
+
+
+- Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity
+- Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is using
+- Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working)
+
+
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 3 34 32 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/540ff695-baae-468e-9fa5-fef24a69f3c1">
+
+
+
+<h3>Observe SSH Traffic</h3>
