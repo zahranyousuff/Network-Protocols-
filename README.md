@@ -138,10 +138,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - After installation, open wireshark click on the capture button, and observe the network traffic.
 
 
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/c4189e83-f7a2-44fe-aee4-0dd52b1f5cbb)
+<img height="70%" width="70%" alt="wireshark capture button" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/d862761c-f77f-4e18-a84a-b665efb5bb41">
 
 
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/8d4d87bd-5826-455a-8414-a2c5daf33546)
+
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 2 54 56 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/2c022360-f13b-40bd-a777-6e1e5ad11da6">
 
 
 - Filter for ICMP traffic.
@@ -149,8 +150,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - You can find VM-2 private IP address in the Azure Portal under networking.
 
 
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/2687c245-9b39-4fa0-8114-6f6f47b0689f)
-
+<img height="70%" width="70%" alt="ping icmp" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/1f1330ff-45d8-48f9-9ec7-3a98b81c4b7d">
 
 
 - You can observe the ping request in WireShark.
@@ -160,7 +160,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Request followed by the reply from VM-2.
 
 
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/b8fbea59-db8a-4f2d-8523-da991df9985f)
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 3 02 25 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/21d5a439-4b42-4608-8cbf-492b7dadd454">
+
 
 
 - You can also observe the traffic from a website.
