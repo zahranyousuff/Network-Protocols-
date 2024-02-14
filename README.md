@@ -113,6 +113,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 
+
 <img height="70%" width="70%" alt="wireshark search" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/dcfb0246-ad82-4b11-ade7-e22852b4896c">
 
 
@@ -120,13 +121,16 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img height="70%" width="70%" alt="wireshark download page" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/c039c627-52a8-4b55-aa0b-6e81f208942f">
 
 
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/229e1412-5a46-43f8-9bcf-dcffaac290dc)
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 1 55 16 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/99c91abc-69f5-43fb-8ed0-adfe242e00b2">
 
 
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/270b302b-3155-4676-bd65-09abcc6960fd)
+
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 1 59 26 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/5865c3ce-a03f-4bef-b7ef-a78527b5999e">
 
 
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/7dfd5e86-9db4-446a-95cd-c19b4178730e)
+
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 1 59 44 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/08986155-8f45-4c8b-8fa6-9bbf8e1fa480">
+
 
 
 
