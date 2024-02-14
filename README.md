@@ -298,7 +298,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <img hight="70%" width="70%" alt="Screenshot 2024-02-12 at 4 06 37 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/bfbda4b5-2384-4ef3-b0e8-67b8d4d524e6">
 
-
+Thank You for following along I hope you benefited from this exercise.
 
 
 
