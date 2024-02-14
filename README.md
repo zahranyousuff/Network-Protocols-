@@ -134,7 +134,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 
-- After installation, open wireshark click on the capture button, and observe the network traffic.
+- After installation, open WireShark click on the capture button, and observe the network traffic.
 
 
 <img height="70%" width="70%" alt="wireshark capture button" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/d862761c-f77f-4e18-a84a-b665efb5bb41">
@@ -165,7 +165,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 - You can also observe the traffic from a website.
-- From The Windows 10 VM, open the command line or PowerShell and attempt to ping a public website (such as www.google.com) and observe the traffic in WireShark
+- From The Windows 10 VM, open the command line or PowerShell and attempt to ping a public website (such as www.google.com) and observe the traffic in Wireshark
 - The destination IP address (172.217.12.142) is Google's public IP address.
 
 <img height="70%" width="70%" alt="Screenshot 2024-02-12 at 3 10 29 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/6fd6baf0-35f1-4959-9836-7cee54703874">
@@ -265,3 +265,21 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - For example: touch hi.text
 
 <img height="70%" width="70%" alt="Screenshot 2024-02-12 at 3 55 45 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/86590927-0962-4748-8d39-02f62d654317">
+
+
+- Exit the SSH connection by typing ‘exit’ and pressing [Enter]
+
+
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 3 57 59 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/af46b7c2-7c9f-46b5-ac97-461ef93c8fff">
+
+
+
+<h4>Observe DHCP Traffic</h4>
+
+- The last network protocol we will observe is DHCP(Dynamic Host Configuration Protocol)
+- DHCP protocol dynamically assigns IP addresses and other network configuration parameters to devices on the network, such as IP addresses, Subnet Mask, Default Gateway, and DNS.
+- From your Windows 10 VM, attempt to issue your VM a new IP address from the command line (ipconfig /renew)
+- Observe the DHCP traffic appearing in WireShark
+
+
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 4 04 25 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/3e3f81dd-e3e1-43d8-81a1-15eb0450e207">
