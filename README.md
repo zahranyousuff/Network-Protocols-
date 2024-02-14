@@ -134,7 +134,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 
-
 - After installation, open wireshark click on the capture button, and observe the network traffic.
 
 
@@ -168,10 +167,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - From The Windows 10 VM, open the command line or PowerShell and attempt to ping a public website (such as www.google.com) and observe the traffic in WireShark
 - The destination IP address (172.217.12.142) is Google's public IP address.
 
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/fb0089ca-7a18-48b5-9d59-8cdd72902bce)
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 3 10 29 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/6fd6baf0-35f1-4959-9836-7cee54703874">
 
 
-![image](https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/73aa38e8-8a56-408c-bffd-e36c49a50661)
+<img height="70%" width="70%" alt="Screenshot 2024-02-12 at 3 10 48 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/57566dd1-c168-43b1-a3d6-e66ce14fbb83">
 
 
 - Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM.
