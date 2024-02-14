@@ -274,12 +274,31 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 
-<h4>Observe DHCP Traffic</h4>
+<h3>Observe DHCP Traffic</h3>
 
-- The last network protocol we will observe is DHCP(Dynamic Host Configuration Protocol)
+- The next network protocol we will observe is DHCP(Dynamic Host Configuration Protocol)
 - DHCP protocol dynamically assigns IP addresses and other network configuration parameters to devices on the network, such as IP addresses, Subnet Mask, Default Gateway, and DNS.
 - From your Windows 10 VM, attempt to issue your VM a new IP address from the command line (ipconfig /renew)
 - Observe the DHCP traffic appearing in WireShark
 
 
 <img height="70%" width="70%" alt="Screenshot 2024-02-12 at 4 04 25 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/3e3f81dd-e3e1-43d8-81a1-15eb0450e207">
+
+
+
+<h3>Observe DNS Traffic</h3>
+
+
+- The last protocol we will observe in WireShark is the DNS(Domain Name System) protocol.
+- DNS is like a directory for the internet. It translates easy-to-remember website names (like google.com) into the numerical addresses (IP addresses) that computers use to communicate with each other. In simpler terms, it helps your device find the right websites when you type their names into your browser.
+- Back in Wireshark, filter for DNS traffic only.
+- From your Windows 10 VM within a command line, use nslookup to see what google.com IP address is.
+- Observe the DNS traffic being shown in WireShark.
+
+
+<img hight="70%" width="70%" alt="Screenshot 2024-02-12 at 4 06 37 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/bfbda4b5-2384-4ef3-b0e8-67b8d4d524e6">
+
+
+
+
+
