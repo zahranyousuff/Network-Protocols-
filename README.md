@@ -29,7 +29,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Observe DHCP Traffic
 - Observe DNS Traffic
 
-<h2>Actions and Observations</h2>
+<h1>Actions and Observations</h1>
 
 <h2>Create Resources in Azure</h2>
 
@@ -227,7 +227,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 
-<h3>Observe SSH Traffic</h3>
+<h2>Observe SSH Traffic</h2>
 
 
 - SSH(Secure Shell) provides a secure way to access and manage remote systems, making it a widely used protocol for remote administration, file transfer, and other network services.
@@ -274,7 +274,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 
-<h3>Observe DHCP Traffic</h3>
+<h2>Observe DHCP Traffic</h2>
 
 - The next network protocol we will observe is DHCP(Dynamic Host Configuration Protocol)
 - DHCP protocol dynamically assigns IP addresses and other network configuration parameters to devices on the network, such as IP addresses, Subnet Mask, Default Gateway, and DNS.
@@ -286,7 +286,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 
-<h3>Observe DNS Traffic</h3>
+<h2>Observe DNS Traffic</h2>
 
 
 - The last protocol we will observe in WireShark is the DNS(Domain Name System) protocol.
@@ -298,7 +298,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <img hight="70%" width="70%" alt="Screenshot 2024-02-12 at 4 06 37 PM" src="https://github.com/zahranyousuff/Network-Protocols-/assets/159392784/bfbda4b5-2384-4ef3-b0e8-67b8d4d524e6">
 
-Thank You for following along I hope you benefited from this exercise.
+<h1>Thank You for following along I hope you benefited from this exercise.</h1>
 
 
 
